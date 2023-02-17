@@ -1,0 +1,97 @@
+nav{
+    position: absolute;
+    background-color: rgb(56, 59, 88);
+    width: 100%;
+    height: 10rem;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.432);
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 6%;
+    width: 20rem;
+    height: 2.5rem;
+    top: 5rem;
+    right: 55.5rem;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.select:hover{
+    background-color: #ffffffb4;
+}
+
+.options{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.dateDiv{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+
+
+.btnBuscar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+    top: auto;
+    left: 60rem;
+    margin-left: 5rem;
+    border-radius: 8%;
+    background-color: #1DBEB4;
+    color: #ffffff;
+    border-color: #1DBEB4;
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnBuscar:hover{
+    transform: scale(1.1);
+    background-color: #8efaf3;
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    nav{
+        width: 114%;
+    }
+
+    .btnBuscar{
+        left: 32rem;
+    }
+}

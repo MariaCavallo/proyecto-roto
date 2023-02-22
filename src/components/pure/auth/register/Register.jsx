@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import styles from '../../../style/register.modules.css'
+import styles from '../../../style/register.module.css'
 
 const Register = (props) => {
 

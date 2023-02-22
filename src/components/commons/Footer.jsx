@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs'
-import styles from '../style/footer.modules.css';
+import styles from '../style/footer.module.css';
 
 const Footer = () => {
     return (

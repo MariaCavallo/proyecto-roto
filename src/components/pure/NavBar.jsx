@@ -1,5 +1,5 @@
 import React from "react";
-import  styles from '../style/navBar.modules.css';
+import  styles from '../style/navBar.module.css';
 import DatePicker from '../utils/DatePicker'
 import { Link } from "react-router-dom";
 

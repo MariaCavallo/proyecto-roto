@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom'
 import logo from "../../img/logo.jpg";
-import styles from '../style/header.modules.css'
+import styles from '../style/header.module.css'
 import { FiMenu } from "react-icons/fi"
 import { FiX } from "react-icons/fi"
 

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styles from '../style/datePicker.modules.css'
+import styles from '../style/datePicker.module.css'
 
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';

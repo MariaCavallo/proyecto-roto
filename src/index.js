@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Login from './components/pure/auth/login/Login'
-import Register from './components/pure/auth/register/Register'
-import Home from './components/commons/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,10 +11,11 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
-            <Route index path='/' element={<Home />} />
-            <Route index path='/Home' element={<Home />} />
-            <Route path="/Login" element={<Login />} />
-            <Route path="/Register" element={<Register />} />
+            <Route index path='/'  />
+            <Route path="/blog"  />
+            <Route path="/projects"  />
+            <Route path="/about"  />
+            <Route path="/contact"  />
         </Route>
       </Routes>
     </BrowserRouter>
